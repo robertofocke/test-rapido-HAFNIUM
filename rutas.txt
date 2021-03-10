@@ -1,0 +1,8 @@
+aspnet_client/aspnet.aspx
+aspnet_client/client.aspx
+aspnet_client/discover.aspx
+aspnet_client/caches.aspx
+aspnet_client/shell.aspx
+aspnet_client/dukybySSSS.asp
+aspnet_client/aspnet_regiis.aspx
+aspnet_client/log_error_9e23efc3.aspx
