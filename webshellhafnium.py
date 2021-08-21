@@ -3,7 +3,7 @@ import sys
 import os
 
 if len(sys.argv)<2:
-	print ("webshellhafnium.py apishodan country:ar ")
+	print ("webshellhafnium.py apishodan country:af")
 	sys.exit()
 
 api=shodan.Shodan(sys.argv[1])
