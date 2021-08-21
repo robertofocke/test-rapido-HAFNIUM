@@ -1,0 +1,62 @@
+id: basic-hafnium-webshell
+
+info:
+  name: hafnium-webshell
+  author: rfocke
+  severity: high
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/aspnet_client/aspnet.aspx"
+      - "{{BaseURL}}/aspnet_client/client.aspx"
+      - "{{BaseURL}}/aspnet_client/discover.aspx"
+      - "{{BaseURL}}/aspnet_client/caches.aspx"
+      - "{{BaseURL}}/aspnet_client/shell.aspx"
+      - "{{BaseURL}}/aspnet_client/dukybySSSS.asp"
+      - "{{BaseURL}}/aspnet_client/aspnet_regiis.aspx"
+      - "{{BaseURL}}/aspnet_client/log_error_9e23efc3.aspx"
+      - "{{BaseURL}}/aspnet_client/errorEE.aspx"
+      - "{{BaseURL}}/aspnet_client/errorEEE.aspx"
+      - "{{BaseURL}}/aspnet_client/errorEW.aspx"
+      - "{{BaseURL}}/aspnet_client/errorFF.aspx"
+      - "{{BaseURL}}/aspnet_client/healthcheck.aspx"
+      - "{{BaseURL}}/aspnet_client/HttpProxy.aspx"
+      - "{{BaseURL}}/aspnet_client/Logout.aspx"
+      - "{{BaseURL}}/aspnet_client/MultiUp.aspx"
+      - "{{BaseURL}}/aspnet_client/one.aspx"
+      - "{{BaseURL}}/aspnet_client/help.aspx"
+      - "{{BaseURL}}/aspnet_client/OutlookJP.aspx"
+      - "{{BaseURL}}/aspnet_client/OutlookEN.aspx"
+      - "{{BaseURL}}/aspnet_client/OutlookRU.aspx"
+      - "{{BaseURL}}/aspnet_client/RedirSuiteServerProxy.aspx"
+      - "{{BaseURL}}/aspnet_client/shellex.aspx"
+      - "{{BaseURL}}/aspnet_client/Supp0rt.aspx"
+      - "{{BaseURL}}/aspnet_client/sytem_web.aspx"
+      - "{{BaseURL}}/aspnet_client/t.aspx"
+      - "{{BaseURL}}/aspnet_client/TimeoutLogout.aspx"
+      - "{{BaseURL}}/aspnet_client/web.aspx"
+      - "{{BaseURL}}/aspnet_client/xx.aspx"
+      - "{{BaseURL}}/aspnet_client/HWTJQDMFVMPOON.aspx"
+      - "{{BaseURL}}/aspnet_client/VJRFWFCHRULT.aspx"
+      - "{{BaseURL}}/aspnet_client/error.aspx"
+      - "{{BaseURL}}/owa/auth/HWTJQDMFVMPOON.aspx"
+      - "{{BaseURL}}/aspnet_client/nhmxea.aspx.aspx"
+      - "{{BaseURL}}/aspnet_client/supp0rt.aspx"
+      - "{{BaseURL}}/owa/auth/d62ffcd688.aspx"
+      - "{{BaseURL}}/owa/auth/Current/themes/resources/zaivc.aspx"
+      - "{{BaseURL}}/owa/auth/415cc41ac1.aspx"
+      - "{{BaseURL}}/aspnet_client/253283293.aspx"
+      - "{{BaseURL}}/aspnet_client/ykmsr.aspx"
+      - "{{BaseURL}}/owa/auth/6514f55e1a.aspx"
+      - "{{BaseURL}}/aspnet_client/KDNLIE.aspx"
+      - "{{BaseURL}}/aspnet_client/VOLWMFQWPP.aspx"
+      - "{{BaseURL}}/owa/auth/VOLWMFQWPP.aspx"
+      - "{{BaseURL}}/aspnet_client/system_web/NUQvLIoq.aspx"
+      - "{{BaseURL}}/aspnet_client/shell.aspx"
+      - "{{BaseURL}}/aspnet_client/updateServer.aspx"
+
+    matchers:
+      - type: status
+        status:
+         - 200
