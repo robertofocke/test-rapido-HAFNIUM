@@ -11,10 +11,12 @@ aspnet_client/errorEEE.aspx
 aspnet_client/errorEW.aspx
 aspnet_client/errorFF.aspx
 aspnet_client/healthcheck.aspx
+aspnet_client/document.aspx
 aspnet_client/HttpProxy.aspx
 aspnet_client/Logout.aspx
 aspnet_client/MultiUp.aspx
 aspnet_client/one.aspx
+aspnet_client/aspnet_iisstart.aspx
 aspnet_client/help.aspx
 aspnet_client/OutlookJP.aspx
 aspnet_client/OutlookEN.aspx
@@ -28,6 +30,8 @@ aspnet_client/TimeoutLogout.aspx
 aspnet_client/web.aspx
 aspnet_client/xx.aspx
 aspnet_client/HWTJQDMFVMPOON.aspx
+aspnet_client/aspnet_client.aspx
+aspnet_client/aspnet_www.aspx
 aspnet_client/VJRFWFCHRULT.aspx
 aspnet_client/error.aspx
 owa/auth/HWTJQDMFVMPOON.aspx
