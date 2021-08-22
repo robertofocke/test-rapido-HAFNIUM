@@ -55,7 +55,11 @@ requests:
       - "{{BaseURL}}/aspnet_client/system_web/NUQvLIoq.aspx"
       - "{{BaseURL}}/aspnet_client/shell.aspx"
       - "{{BaseURL}}/aspnet_client/updateServer.aspx"
-
+      - "{{BaseURL}}/aspnet_client/aspnet_www.aspx"
+      - "{{BaseURL}}/aspnet_client/aspnet_client.aspx"
+      - "{{BaseURL}}/aspnet_client/aspnet_iisstart.aspx"
+      - "{{BaseURL}}/aspnet_client/document.aspx"
+      
     matchers:
       - type: status
         status:
