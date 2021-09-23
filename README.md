@@ -1,1 +1,2 @@
-# test-rapido-HAFNIUM: revisa el nombre de las principales webshell HAFNIUM
+# test-rapido-critico-nuclei
+algunos script nuclei criticos
