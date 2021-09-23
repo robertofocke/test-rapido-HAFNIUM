@@ -1,0 +1,27 @@
+id: CVE-2021-22005
+
+info:
+  author: Roberto Focke
+  name: VMware vCenter RCE CVE-2021-22005
+  severity: critical
+  reference: https://www.rapid7.com/blog/post/2021/09/21/critical-vcenter-server-file-upload-vulnerability-cve-2021-22005/
+  tags: vcenter,cve2021-22005
+  classification:
+    cve-id: CVE-2021-22005
+  description: "arbitrary file upload vulnerability"
+
+requests:
+  - raw:
+      - |
+        POST /analytics/telemetry/ph/api/hyper/send?_c&_i=test HTTP/1.1
+        Host: {{Hostname}}
+        User-Agent: vAPI/2.100.0 Java/1.8.0_261 (Linux; 4.19.160-6.ph3; amd64)
+        Content-Type: application/json
+        Content-Length: 11
+
+        lorem ipsum
+
+    matchers:
+      - type: status
+        status:
+          - 201
